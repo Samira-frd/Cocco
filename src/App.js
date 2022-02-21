@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Square from './Components/Buttons/Square';
 
 function App() {
   return (
     <div>
-     Cocco  
+     <Square/>
      </div>
   );
 }
