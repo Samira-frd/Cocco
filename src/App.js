@@ -1,11 +1,11 @@
-
+import Category from './Components/Category'
 import './App.css';
-import Square from './Components/Buttons/Square';
+
 
 function App() {
   return (
     <div>
-     <Square/>
+     <Category/>
      </div>
   );
 }

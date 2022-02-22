@@ -1,11 +1,20 @@
 import './Square.css'
-import category1 from './../../Assets/Images/shop-category-1.png'
 
-function Square(){
+
+function Square(props){
+    const style = {
+        backgroundColor: props.bgColor,
+    border: '2px dashed' + props.borderColor,
+    borderRadius: "10px",
+    margin: '20px',
+    outline: '3px solid' + props.bgColor    
+    }
+
+
     return(
-        <div className="w-40 h-40 bg-blue-300 btnCocco flex flex-col justify-center items-center">
-            <img src={category1} alt="category" className='max-h-28'/>
-            <h6>Babies</h6>
+        <div style={style} className="w-40 h-40 flex flex-col justify-center items-center hover:shadow-lg">
+            <img src={props.image} alt="category" className='max-h-28'/>
+            <h6>{props.text}</h6>
         </div>
     )
 }
