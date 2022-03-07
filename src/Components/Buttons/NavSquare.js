@@ -11,7 +11,7 @@ function NavSquare(props) {
       style={style}
       className="w-10 h-10 flex flex-col justify-center items-center hover:shadow-lg"
     >
-      <img src={props.image} />
+      <img src={props.image} alt=""/>
       <h6>{props.text}</h6>
     </div>
   );

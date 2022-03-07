@@ -1,15 +1,14 @@
-
 import './index.css';
 import SearchBox from './SearchBox';
 import Menu from './Menu';
-import NavSquare from '../Buttons/NavSquare';
+import NavCategory from './../NavCategory';
 
 function Navbar(){
     return(
         <div className="nav">
             <Menu></Menu>
             <SearchBox></SearchBox>
-            <NavSquare></NavSquare>
+            <NavCategory></NavCategory>
         </div>
     )
 }

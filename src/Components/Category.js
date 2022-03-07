@@ -7,6 +7,7 @@ function Category() {
       {getCategories().map((category, index) => {
         return (
           <Square
+            key={category.CategoryText}
             text={category.CategoryText}
             image={category.Image}
             bgColor={category.BgColor}
