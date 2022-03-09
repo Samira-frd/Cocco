@@ -5,7 +5,7 @@ import NavCategory from './../NavCategory';
 
 function Navbar(){
     return(
-        <div className="nav">
+        <div className="nav flex justify-evenly items-center">
             <Menu></Menu>
             <SearchBox></SearchBox>
             <NavCategory></NavCategory>

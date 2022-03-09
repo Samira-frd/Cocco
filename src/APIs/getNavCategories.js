@@ -8,14 +8,14 @@ export const getNavCategories =
         {
             ID: "wishlist",
             Image:Image1,
-            CategoryText:'Wishlist',
+            CategoryText:'My bag',
             BgColor:'#FBFCF3',
             BorderColor:'#DCE086'
         },
         {
             ID: "myBag",
             Image:Image2,
-            CategoryText:'My bag',
+            CategoryText:'Wishlist',
             BgColor:'#F5FBFB',
             BorderColor:'#9AD8D3'
         }

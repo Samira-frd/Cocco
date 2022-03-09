@@ -10,7 +10,7 @@ function NavCategory() {
     },[]
   )
    return (
-    <div className="flex justify-center ">
+    <div className="flex justify-center text-s ">
       {categoryData.map((navCategory) => {
         return (
           <NavSquare
