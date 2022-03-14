@@ -5,11 +5,11 @@ function Menu() {
     return(
         <div>
             <ul className='menu'>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="products">Products</Link> </li>
-                <li>Categories</li>
-                <li>About us</li>
-                <li>Contact us</li>
+                <li><a href='/'><span className='itemOuter'><span className='item'>Home</span></span></a></li>
+                <li><a href="products">Products</a> </li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
             </ul>
         </div>
     )
