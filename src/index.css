@@ -4,6 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
 body{
-    background-color: rgb(227, 236, 240);
+    background-color: rgb(242, 245, 247);
     font-family: 'Balsamiq Sans', cursive;
+    background-image: url("https://cocco.qodeinteractive.com/wp-content/uploads/2018/05/h2-background-img-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
+ /* *{
+    border: 1px rgb(221, 20, 20) solid;
+}  */
+

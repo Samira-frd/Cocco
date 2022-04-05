@@ -3,7 +3,7 @@ import { getCategories } from "./../APIs/getCategories";
 
 function Category() {
   return (
-    <div className="flex justify-center ">
+    <div className="flex justify-center w-full ">
       {getCategories().map((category, index) => {
         return (
           <Square

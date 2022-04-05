@@ -10,6 +10,7 @@ export const getCategories =
                 CategoryText:'Babies',
                 BgColor:'#FBFCF3',
                 BorderColor:'#DCE086'
+                
             },
             {
                 ID: "outFit",

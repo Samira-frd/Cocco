@@ -62,8 +62,8 @@ const images = [
         );
       
         return (
-          <div className="w-screen flex justify-center">
-              <div className="p-12 flex justify-center w-screen md:w-1/2 items-center">
+          <div className="flex  justify-center ">
+              <div className="p-12 flex  justify-center w-screen items-center">
             <div className="relative w-full">
               <div className="carousel ">
                 {sliderControl(true)}

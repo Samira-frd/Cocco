@@ -5,7 +5,7 @@ import {ReactComponent as SearchIcon} from './../../Assets/Icons/search.svg';
 function SearchBox() {
   return (
     <div>
-      <div className="iputContainer">
+      <div className="iputContainer ">
         <input type="text" placeholder="Search..." className="searchInput" />
       </div>
       <button type="button" className="btnSearch">
