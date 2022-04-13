@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 function Square(props) {
   const style = {
     backgroundColor: props.bgColor,
@@ -7,13 +9,28 @@ function Square(props) {
     outline: "3px solid" + props.bgColor,
   };
 
+  const [count, setCount] = useState(0);
+  const onClickHandler = () => {
+    setCount(count + 1);
+  }
+  useEffect(() => {
+    console.log("Fetch color and title from server");
+  },[count]
+  )
+  useEffect(() => {
+    console.log("Square updated");
+    setCount(0)
+  },
+  )
+
+  
   return (
-    <div
+    <div onClick={onClickHandler}
       style={style}
       className="w-40 h-40 flex flex-col justify-center items-center hover:shadow-lg"
     >
       <img src={props.image} alt="category" className="max-h-28" />
-      <h6>{props.text}</h6>
+      <h6>{props.text + count}</h6>
     </div>
   );
 }
